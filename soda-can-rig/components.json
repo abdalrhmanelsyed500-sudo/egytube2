@@ -1,0 +1,3168 @@
+{
+  "canvas": {
+    "width": 1536,
+    "height": 1700
+  },
+  "generated": "2026-11-10T14:52:19.362Z",
+  "components": [
+    {
+      "name": "CAN_BODY_MAIN",
+      "group": "CAN",
+      "z": 100,
+      "pivot": [
+        768,
+        844
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 497,
+      "y": 318,
+      "w": 542,
+      "h": 998
+    },
+    {
+      "name": "CAN_SIDE_R",
+      "group": "CAN",
+      "z": 104,
+      "pivot": [
+        768,
+        844
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 502,
+      "y": 399,
+      "w": 112,
+      "h": 860
+    },
+    {
+      "name": "CAN_SIDE_L",
+      "group": "CAN",
+      "z": 106,
+      "pivot": [
+        768,
+        844
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 924,
+      "y": 399,
+      "w": 110,
+      "h": 860
+    },
+    {
+      "name": "CAN_BODY_SHADOWS",
+      "group": "CAN",
+      "z": 112,
+      "pivot": [
+        768,
+        844
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 507,
+      "y": 387,
+      "w": 527,
+      "h": 884
+    },
+    {
+      "name": "CAN_BODY_HIGHLIGHTS",
+      "group": "CAN",
+      "z": 114,
+      "pivot": [
+        768,
+        844
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 530,
+      "y": 459,
+      "w": 481,
+      "h": 791
+    },
+    {
+      "name": "CAN_BODY_STRIPE",
+      "group": "CAN",
+      "z": 116,
+      "pivot": [
+        768,
+        844
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 502,
+      "y": 1042,
+      "w": 530,
+      "h": 166
+    },
+    {
+      "name": "CAN_BOTTOM_RIM",
+      "group": "CAN",
+      "z": 118,
+      "pivot": [
+        768,
+        1258
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 514,
+      "y": 1219,
+      "w": 509,
+      "h": 96
+    },
+    {
+      "name": "CAN_TOP_LID",
+      "group": "CAN",
+      "z": 130,
+      "pivot": [
+        768,
+        424
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 510,
+      "y": 317,
+      "w": 516,
+      "h": 118
+    },
+    {
+      "name": "CAN_PULL_TAB_HOLE",
+      "group": "CAN",
+      "z": 132,
+      "pivot": [
+        708,
+        360
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 746,
+      "y": 362,
+      "w": 60,
+      "h": 36
+    },
+    {
+      "name": "CAN_PULL_TAB",
+      "group": "CAN",
+      "z": 134,
+      "pivot": [
+        708,
+        360
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 638,
+      "y": 315,
+      "w": 184,
+      "h": 97
+    },
+    {
+      "name": "CAN_BUBBLE_01",
+      "group": "CAN",
+      "z": 120,
+      "pivot": [
+        610,
+        516
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 21
+      },
+      "x": 587,
+      "y": 494,
+      "w": 46,
+      "h": 44
+    },
+    {
+      "name": "CAN_BUBBLE_02",
+      "group": "CAN",
+      "z": 121,
+      "pivot": [
+        576,
+        572
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 11
+      },
+      "x": 563,
+      "y": 559,
+      "w": 26,
+      "h": 25
+    },
+    {
+      "name": "CAN_BUBBLE_03",
+      "group": "CAN",
+      "z": 122,
+      "pivot": [
+        646,
+        464
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 9
+      },
+      "x": 635,
+      "y": 453,
+      "w": 22,
+      "h": 22
+    },
+    {
+      "name": "CAN_BUBBLE_04",
+      "group": "CAN",
+      "z": 120,
+      "pivot": [
+        948,
+        534
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 18
+      },
+      "x": 928,
+      "y": 515,
+      "w": 40,
+      "h": 38
+    },
+    {
+      "name": "CAN_BUBBLE_05",
+      "group": "CAN",
+      "z": 121,
+      "pivot": [
+        978,
+        590
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 10
+      },
+      "x": 966,
+      "y": 579,
+      "w": 24,
+      "h": 22
+    },
+    {
+      "name": "CAN_BUBBLE_06",
+      "group": "CAN",
+      "z": 122,
+      "pivot": [
+        918,
+        476
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 8
+      },
+      "x": 908,
+      "y": 467,
+      "w": 20,
+      "h": 18
+    },
+    {
+      "name": "CAN_BUBBLE_07",
+      "group": "CAN",
+      "z": 120,
+      "pivot": [
+        566,
+        950
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 19
+      },
+      "x": 545,
+      "y": 930,
+      "w": 42,
+      "h": 40
+    },
+    {
+      "name": "CAN_BUBBLE_08",
+      "group": "CAN",
+      "z": 121,
+      "pivot": [
+        600,
+        1006
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 10
+      },
+      "x": 588,
+      "y": 994,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "name": "CAN_BUBBLE_09",
+      "group": "CAN",
+      "z": 122,
+      "pivot": [
+        548,
+        896
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 8
+      },
+      "x": 538,
+      "y": 886,
+      "w": 20,
+      "h": 20
+    },
+    {
+      "name": "CAN_BUBBLE_10",
+      "group": "CAN",
+      "z": 120,
+      "pivot": [
+        972,
+        936
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 16
+      },
+      "x": 954,
+      "y": 919,
+      "w": 36,
+      "h": 34
+    },
+    {
+      "name": "CAN_BUBBLE_11",
+      "group": "CAN",
+      "z": 121,
+      "pivot": [
+        1000,
+        992
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 9
+      },
+      "x": 989,
+      "y": 981,
+      "w": 22,
+      "h": 21
+    },
+    {
+      "name": "CAN_BUBBLE_12",
+      "group": "CAN",
+      "z": 122,
+      "pivot": [
+        944,
+        890
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 7
+      },
+      "x": 935,
+      "y": 881,
+      "w": 18,
+      "h": 17
+    },
+    {
+      "name": "CAN_BUBBLE_13",
+      "group": "CAN",
+      "z": 120,
+      "pivot": [
+        712,
+        470
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 8
+      },
+      "x": 702,
+      "y": 460,
+      "w": 20,
+      "h": 19
+    },
+    {
+      "name": "CAN_BUBBLE_14",
+      "group": "CAN",
+      "z": 121,
+      "pivot": [
+        848,
+        486
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 10
+      },
+      "x": 837,
+      "y": 475,
+      "w": 23,
+      "h": 22
+    },
+    {
+      "name": "CAN_BUBBLE_15",
+      "group": "CAN",
+      "z": 122,
+      "pivot": [
+        884,
+        1172
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 9
+      },
+      "x": 873,
+      "y": 1161,
+      "w": 22,
+      "h": 21
+    },
+    {
+      "name": "CAN_BUBBLE_16",
+      "group": "CAN",
+      "z": 120,
+      "pivot": [
+        654,
+        1188
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 8
+      },
+      "x": 644,
+      "y": 1178,
+      "w": 20,
+      "h": 20
+    },
+    {
+      "name": "CAN_BUBBLE_17",
+      "group": "CAN",
+      "z": 121,
+      "pivot": [
+        548,
+        766
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 9
+      },
+      "x": 537,
+      "y": 756,
+      "w": 22,
+      "h": 20
+    },
+    {
+      "name": "CAN_BUBBLE_18",
+      "group": "CAN",
+      "z": 122,
+      "pivot": [
+        992,
+        782
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "radius": 8
+      },
+      "x": 982,
+      "y": 772,
+      "w": 20,
+      "h": 20
+    },
+    {
+      "name": "CAN_BODY_DEFORM_GUIDE",
+      "group": "GUIDE",
+      "z": -100,
+      "pivot": [
+        768,
+        1258
+      ],
+      "hidden": true,
+      "guide": true,
+      "meta": {},
+      "x": 501,
+      "y": 372,
+      "w": 534,
+      "h": 896
+    },
+    {
+      "name": "EYE_L_SOCKET",
+      "group": "FACE",
+      "z": 200,
+      "pivot": [
+        864,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 787,
+      "y": 618,
+      "w": 153,
+      "h": 180
+    },
+    {
+      "name": "EYE_L_SCLERA",
+      "group": "FACE",
+      "z": 202,
+      "pivot": [
+        864,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 798,
+      "y": 630,
+      "w": 132,
+      "h": 156
+    },
+    {
+      "name": "EYE_L_IRIS",
+      "group": "FACE",
+      "z": 204,
+      "pivot": [
+        864,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 831,
+      "y": 662,
+      "w": 75,
+      "h": 92
+    },
+    {
+      "name": "EYE_L_PUPIL",
+      "group": "FACE",
+      "z": 206,
+      "pivot": [
+        864,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 849,
+      "y": 683,
+      "w": 40,
+      "h": 52
+    },
+    {
+      "name": "EYE_L_HIGHLIGHT",
+      "group": "FACE",
+      "z": 208,
+      "pivot": [
+        864,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 846,
+      "y": 685,
+      "w": 30,
+      "h": 26
+    },
+    {
+      "name": "EYE_L_HIGHLIGHT_2",
+      "group": "FACE",
+      "z": 209,
+      "pivot": [
+        864,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 869,
+      "y": 717,
+      "w": 15,
+      "h": 12
+    },
+    {
+      "name": "EYE_L_OUTLINE",
+      "group": "FACE",
+      "z": 210,
+      "pivot": [
+        864,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 795,
+      "y": 627,
+      "w": 137,
+      "h": 162
+    },
+    {
+      "name": "EYE_L_LOWER_LID",
+      "group": "FACE",
+      "z": 212,
+      "pivot": [
+        864,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 794,
+      "y": 694,
+      "w": 140,
+      "h": 92
+    },
+    {
+      "name": "EYE_L_UPPER_LID",
+      "group": "FACE",
+      "z": 214,
+      "pivot": [
+        864,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 792,
+      "y": 620,
+      "w": 144,
+      "h": 94
+    },
+    {
+      "name": "EYE_L_LASHES",
+      "group": "FACE",
+      "z": 216,
+      "pivot": [
+        864,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 908,
+      "y": 634,
+      "w": 31,
+      "h": 116
+    },
+    {
+      "name": "EYEBROW_L",
+      "group": "FACE",
+      "z": 220,
+      "pivot": [
+        864,
+        604
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 795,
+      "y": 569,
+      "w": 151,
+      "h": 40
+    },
+    {
+      "name": "CHEEK_L",
+      "group": "FACE",
+      "z": 198,
+      "pivot": [
+        864,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 531,
+      "y": 801,
+      "w": 127,
+      "h": 65
+    },
+    {
+      "name": "EYE_R_SOCKET",
+      "group": "FACE",
+      "z": 200,
+      "pivot": [
+        672,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 595,
+      "y": 618,
+      "w": 153,
+      "h": 181
+    },
+    {
+      "name": "EYE_R_SCLERA",
+      "group": "FACE",
+      "z": 202,
+      "pivot": [
+        672,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 606,
+      "y": 630,
+      "w": 132,
+      "h": 156
+    },
+    {
+      "name": "EYE_R_IRIS",
+      "group": "FACE",
+      "z": 204,
+      "pivot": [
+        672,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 629,
+      "y": 662,
+      "w": 75,
+      "h": 92
+    },
+    {
+      "name": "EYE_R_PUPIL",
+      "group": "FACE",
+      "z": 206,
+      "pivot": [
+        672,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 647,
+      "y": 683,
+      "w": 40,
+      "h": 52
+    },
+    {
+      "name": "EYE_R_HIGHLIGHT",
+      "group": "FACE",
+      "z": 208,
+      "pivot": [
+        672,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 644,
+      "y": 685,
+      "w": 30,
+      "h": 26
+    },
+    {
+      "name": "EYE_R_HIGHLIGHT_2",
+      "group": "FACE",
+      "z": 209,
+      "pivot": [
+        672,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 667,
+      "y": 717,
+      "w": 15,
+      "h": 12
+    },
+    {
+      "name": "EYE_R_OUTLINE",
+      "group": "FACE",
+      "z": 210,
+      "pivot": [
+        672,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 604,
+      "y": 628,
+      "w": 136,
+      "h": 161
+    },
+    {
+      "name": "EYE_R_LOWER_LID",
+      "group": "FACE",
+      "z": 212,
+      "pivot": [
+        672,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 602,
+      "y": 694,
+      "w": 140,
+      "h": 92
+    },
+    {
+      "name": "EYE_R_UPPER_LID",
+      "group": "FACE",
+      "z": 214,
+      "pivot": [
+        672,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 600,
+      "y": 620,
+      "w": 144,
+      "h": 94
+    },
+    {
+      "name": "EYE_R_LASHES",
+      "group": "FACE",
+      "z": 216,
+      "pivot": [
+        672,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 596,
+      "y": 633,
+      "w": 32,
+      "h": 116
+    },
+    {
+      "name": "EYEBROW_R",
+      "group": "FACE",
+      "z": 220,
+      "pivot": [
+        672,
+        604
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 590,
+      "y": 569,
+      "w": 150,
+      "h": 40
+    },
+    {
+      "name": "CHEEK_R",
+      "group": "FACE",
+      "z": 198,
+      "pivot": [
+        672,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 867,
+      "y": 800,
+      "w": 135,
+      "h": 69
+    },
+    {
+      "name": "FACE_ROOT_GUIDE",
+      "group": "GUIDE",
+      "z": 190,
+      "pivot": [
+        768,
+        764
+      ],
+      "hidden": true,
+      "guide": true,
+      "meta": {},
+      "x": 726,
+      "y": 702,
+      "w": 84,
+      "h": 4
+    },
+    {
+      "name": "MOUTH_NEUTRAL",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "kind": "NEUTRAL"
+      },
+      "x": 710,
+      "y": 880,
+      "w": 116,
+      "h": 29
+    },
+    {
+      "name": "MOUTH_SMILE",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "SMILE"
+      },
+      "x": 690,
+      "y": 877,
+      "w": 156,
+      "h": 40
+    },
+    {
+      "name": "MOUTH_SMILE_OPEN",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "SMILE_OPEN"
+      },
+      "x": 685,
+      "y": 848,
+      "w": 167,
+      "h": 92
+    },
+    {
+      "name": "MOUTH_OPEN",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "OPEN"
+      },
+      "x": 701,
+      "y": 858,
+      "w": 135,
+      "h": 74
+    },
+    {
+      "name": "MOUTH_OPEN_LARGE",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "OPEN_LARGE"
+      },
+      "x": 680,
+      "y": 836,
+      "w": 176,
+      "h": 120
+    },
+    {
+      "name": "MOUTH_OPEN_SMALL",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "OPEN_SMALL"
+      },
+      "x": 729,
+      "y": 872,
+      "w": 79,
+      "h": 45
+    },
+    {
+      "name": "MOUTH_SAD",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "SAD"
+      },
+      "x": 694,
+      "y": 876,
+      "w": 152,
+      "h": 24
+    },
+    {
+      "name": "MOUTH_ANGRY",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "ANGRY"
+      },
+      "x": 694,
+      "y": 877,
+      "w": 152,
+      "h": 31
+    },
+    {
+      "name": "MOUTH_DISAPPOINTED",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "DISAPPOINTED"
+      },
+      "x": 703,
+      "y": 884,
+      "w": 125,
+      "h": 20
+    },
+    {
+      "name": "MOUTH_SURPRISED",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "SURPRISED"
+      },
+      "x": 741,
+      "y": 870,
+      "w": 55,
+      "h": 48
+    },
+    {
+      "name": "MOUTH_SHOCKED",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "SHOCKED"
+      },
+      "x": 727,
+      "y": 844,
+      "w": 83,
+      "h": 103
+    },
+    {
+      "name": "MOUTH_LAUGH",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "LAUGH"
+      },
+      "x": 676,
+      "y": 840,
+      "w": 185,
+      "h": 117
+    },
+    {
+      "name": "MOUTH_CRY",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "CRY"
+      },
+      "x": 706,
+      "y": 854,
+      "w": 125,
+      "h": 86
+    },
+    {
+      "name": "MOUTH_SCREAM",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "SCREAM"
+      },
+      "x": 713,
+      "y": 835,
+      "w": 111,
+      "h": 127
+    },
+    {
+      "name": "MOUTH_SMIRK",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "SMIRK"
+      },
+      "x": 698,
+      "y": 873,
+      "w": 148,
+      "h": 35
+    },
+    {
+      "name": "MOUTH_CONFUSED",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "CONFUSED"
+      },
+      "x": 698,
+      "y": 882,
+      "w": 139,
+      "h": 22
+    },
+    {
+      "name": "MOUTH_TEETH_CLENCHED",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "TEETH_CLENCHED"
+      },
+      "x": 682,
+      "y": 874,
+      "w": 173,
+      "h": 39
+    },
+    {
+      "name": "MOUTH_TONGUE",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "TONGUE"
+      },
+      "x": 711,
+      "y": 856,
+      "w": 115,
+      "h": 78
+    },
+    {
+      "name": "MOUTH_PH_REST",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "PH_REST"
+      },
+      "x": 725,
+      "y": 889,
+      "w": 86,
+      "h": 14
+    },
+    {
+      "name": "MOUTH_PH_MBP",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "PH_MBP"
+      },
+      "x": 716,
+      "y": 890,
+      "w": 104,
+      "h": 16
+    },
+    {
+      "name": "MOUTH_PH_AI",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "PH_AI"
+      },
+      "x": 676,
+      "y": 854,
+      "w": 185,
+      "h": 82
+    },
+    {
+      "name": "MOUTH_PH_E",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "PH_E"
+      },
+      "x": 666,
+      "y": 871,
+      "w": 205,
+      "h": 46
+    },
+    {
+      "name": "MOUTH_PH_O",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "PH_O"
+      },
+      "x": 720,
+      "y": 852,
+      "w": 97,
+      "h": 86
+    },
+    {
+      "name": "MOUTH_PH_U",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "PH_U"
+      },
+      "x": 734,
+      "y": 865,
+      "w": 69,
+      "h": 58
+    },
+    {
+      "name": "MOUTH_PH_FV",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "PH_FV"
+      },
+      "x": 692,
+      "y": 879,
+      "w": 153,
+      "h": 30
+    },
+    {
+      "name": "MOUTH_PH_L",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "PH_L"
+      },
+      "x": 716,
+      "y": 856,
+      "w": 105,
+      "h": 77
+    },
+    {
+      "name": "MOUTH_PH_WQ",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "PH_WQ"
+      },
+      "x": 711,
+      "y": 840,
+      "w": 115,
+      "h": 111
+    },
+    {
+      "name": "MOUTH_PH_TEETH",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "PH_TEETH"
+      },
+      "x": 682,
+      "y": 872,
+      "w": 174,
+      "h": 44
+    },
+    {
+      "name": "MOUTH_PH_SMALL",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "PH_SMALL"
+      },
+      "x": 737,
+      "y": 874,
+      "w": 62,
+      "h": 41
+    },
+    {
+      "name": "MOUTH_PH_TH",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "PH_TH"
+      },
+      "x": 707,
+      "y": 874,
+      "w": 123,
+      "h": 40
+    },
+    {
+      "name": "MOUTH_PH_S",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "PH_S"
+      },
+      "x": 683,
+      "y": 880,
+      "w": 170,
+      "h": 28
+    },
+    {
+      "name": "MOUTH_PH_NEUTRAL",
+      "group": "MOUTH",
+      "z": 240,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "kind": "PH_NEUTRAL"
+      },
+      "x": 729,
+      "y": 890,
+      "w": 77,
+      "h": 14
+    },
+    {
+      "name": "MOUTH_JAW",
+      "group": "MOUTH",
+      "z": 238,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 707,
+      "y": 917,
+      "w": 122,
+      "h": 34
+    },
+    {
+      "name": "MOUTH_TONGUE_SEP",
+      "group": "MOUTH",
+      "z": 242,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 741,
+      "y": 915,
+      "w": 66,
+      "h": 50
+    },
+    {
+      "name": "MOUTH_TEETH_UPPER",
+      "group": "MOUTH",
+      "z": 241,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 702,
+      "y": 859,
+      "w": 132,
+      "h": 30
+    },
+    {
+      "name": "MOUTH_TEETH_LOWER",
+      "group": "MOUTH",
+      "z": 239,
+      "pivot": [
+        768,
+        894
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 706,
+      "y": 915,
+      "w": 124,
+      "h": 26
+    },
+    {
+      "name": "FACE_TEAR_L",
+      "group": "FX",
+      "z": 320,
+      "pivot": [
+        890,
+        770
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 873,
+      "y": 741,
+      "w": 33,
+      "h": 56
+    },
+    {
+      "name": "FACE_TEAR_R",
+      "group": "FX",
+      "z": 320,
+      "pivot": [
+        646,
+        770
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 629,
+      "y": 741,
+      "w": 33,
+      "h": 56
+    },
+    {
+      "name": "FACE_SWEAT",
+      "group": "FX",
+      "z": 322,
+      "pivot": [
+        1000,
+        604
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 981,
+      "y": 567,
+      "w": 38,
+      "h": 68
+    },
+    {
+      "name": "FX_SURPRISE",
+      "group": "FX",
+      "z": 324,
+      "pivot": [
+        768,
+        570
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 699,
+      "y": 484,
+      "w": 138,
+      "h": 58
+    },
+    {
+      "name": "FX_ANGER",
+      "group": "FX",
+      "z": 324,
+      "pivot": [
+        978,
+        530
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 955,
+      "y": 523,
+      "w": 43,
+      "h": 42
+    },
+    {
+      "name": "FX_IDEA",
+      "group": "FX",
+      "z": 326,
+      "pivot": [
+        978,
+        510
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 941,
+      "y": 474,
+      "w": 75,
+      "h": 80
+    },
+    {
+      "name": "ARM_L_SHOULDER",
+      "group": "ARM_L",
+      "z": 160,
+      "pivot": [
+        1014,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 991,
+      "y": 692,
+      "w": 35,
+      "h": 33
+    },
+    {
+      "name": "ARM_L_UPPER",
+      "group": "ARM_L",
+      "z": 162,
+      "pivot": [
+        1014,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 1001,
+      "y": 688,
+      "w": 79,
+      "h": 146
+    },
+    {
+      "name": "ARM_L_ELBOW",
+      "group": "ARM_L",
+      "z": 164,
+      "pivot": [
+        1064,
+        810
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 1050,
+      "y": 796,
+      "w": 28,
+      "h": 28
+    },
+    {
+      "name": "ARM_L_LOWER",
+      "group": "ARM_L",
+      "z": 166,
+      "pivot": [
+        1064,
+        810
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 1032,
+      "y": 786,
+      "w": 45,
+      "h": 134
+    },
+    {
+      "name": "ARM_L_WRIST",
+      "group": "ARM_L",
+      "z": 168,
+      "pivot": [
+        1042,
+        904
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 1030,
+      "y": 892,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "name": "ARM_L_HAND",
+      "group": "ARM_L",
+      "z": 170,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "pose": "RELAXED",
+        "tier": "front"
+      },
+      "x": 1002,
+      "y": 890,
+      "w": 61,
+      "h": 77
+    },
+    {
+      "name": "ARM_L_SHOULDER_BACK",
+      "group": "ARM_L",
+      "z": 90,
+      "pivot": [
+        1014,
+        704
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 991,
+      "y": 692,
+      "w": 35,
+      "h": 33
+    },
+    {
+      "name": "ARM_L_UPPER_BACK",
+      "group": "ARM_L",
+      "z": 92,
+      "pivot": [
+        1014,
+        704
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 1001,
+      "y": 688,
+      "w": 79,
+      "h": 146
+    },
+    {
+      "name": "ARM_L_ELBOW_BACK",
+      "group": "ARM_L",
+      "z": 94,
+      "pivot": [
+        1064,
+        810
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 1050,
+      "y": 796,
+      "w": 28,
+      "h": 28
+    },
+    {
+      "name": "ARM_L_LOWER_BACK",
+      "group": "ARM_L",
+      "z": 96,
+      "pivot": [
+        1064,
+        810
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 1032,
+      "y": 786,
+      "w": 45,
+      "h": 134
+    },
+    {
+      "name": "ARM_L_WRIST_BACK",
+      "group": "ARM_L",
+      "z": 98,
+      "pivot": [
+        1042,
+        904
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 1030,
+      "y": 892,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "name": "ARM_L_HAND_BACK",
+      "group": "ARM_L",
+      "z": 100,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "RELAXED",
+        "tier": "back"
+      },
+      "x": 1002,
+      "y": 890,
+      "w": 61,
+      "h": 77
+    },
+    {
+      "name": "ARM_L_THUMB_1",
+      "group": "ARM_L",
+      "z": 171,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "THUMB",
+        "segment": 1
+      },
+      "x": 1042,
+      "y": 911,
+      "w": 21,
+      "h": 26
+    },
+    {
+      "name": "ARM_L_THUMB_2",
+      "group": "ARM_L",
+      "z": 172,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "THUMB",
+        "segment": 2
+      },
+      "x": 1032,
+      "y": 924,
+      "w": 24,
+      "h": 16
+    },
+    {
+      "name": "ARM_L_INDEX_1",
+      "group": "ARM_L",
+      "z": 171,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "INDEX",
+        "segment": 1
+      },
+      "x": 1031,
+      "y": 928,
+      "w": 23,
+      "h": 29
+    },
+    {
+      "name": "ARM_L_INDEX_2",
+      "group": "ARM_L",
+      "z": 172,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "INDEX",
+        "segment": 2
+      },
+      "x": 1021,
+      "y": 945,
+      "w": 22,
+      "h": 22
+    },
+    {
+      "name": "ARM_L_MIDDLE_1",
+      "group": "ARM_L",
+      "z": 171,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "MIDDLE",
+        "segment": 1
+      },
+      "x": 1022,
+      "y": 925,
+      "w": 23,
+      "h": 32
+    },
+    {
+      "name": "ARM_L_MIDDLE_2",
+      "group": "ARM_L",
+      "z": 172,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "MIDDLE",
+        "segment": 2
+      },
+      "x": 1010,
+      "y": 945,
+      "w": 24,
+      "h": 22
+    },
+    {
+      "name": "ARM_L_RING_1",
+      "group": "ARM_L",
+      "z": 171,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "RING",
+        "segment": 1
+      },
+      "x": 1016,
+      "y": 923,
+      "w": 20,
+      "h": 30
+    },
+    {
+      "name": "ARM_L_RING_2",
+      "group": "ARM_L",
+      "z": 172,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "RING",
+        "segment": 2
+      },
+      "x": 1005,
+      "y": 941,
+      "w": 23,
+      "h": 20
+    },
+    {
+      "name": "ARM_L_PINKY_1",
+      "group": "ARM_L",
+      "z": 171,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "PINKY",
+        "segment": 1
+      },
+      "x": 1011,
+      "y": 921,
+      "w": 17,
+      "h": 26
+    },
+    {
+      "name": "ARM_L_PINKY_2",
+      "group": "ARM_L",
+      "z": 172,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "PINKY",
+        "segment": 2
+      },
+      "x": 1002,
+      "y": 936,
+      "w": 20,
+      "h": 17
+    },
+    {
+      "name": "ARM_L_HAND_RELAXED",
+      "group": "HANDS_L",
+      "z": 170,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "RELAXED"
+      },
+      "x": 1002,
+      "y": 890,
+      "w": 61,
+      "h": 77
+    },
+    {
+      "name": "ARM_L_HAND_FIST",
+      "group": "HANDS_L",
+      "z": 170,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "FIST"
+      },
+      "x": 1004,
+      "y": 890,
+      "w": 59,
+      "h": 56
+    },
+    {
+      "name": "ARM_L_HAND_POINT",
+      "group": "HANDS_L",
+      "z": 170,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "POINT"
+      },
+      "x": 1004,
+      "y": 890,
+      "w": 59,
+      "h": 85
+    },
+    {
+      "name": "ARM_L_HAND_WAVE",
+      "group": "HANDS_L",
+      "z": 170,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "WAVE"
+      },
+      "x": 1014,
+      "y": 890,
+      "w": 50,
+      "h": 86
+    },
+    {
+      "name": "ARM_L_HAND_GRAB",
+      "group": "HANDS_L",
+      "z": 170,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "GRAB"
+      },
+      "x": 1000,
+      "y": 890,
+      "w": 63,
+      "h": 59
+    },
+    {
+      "name": "ARM_L_HAND_HOLD",
+      "group": "HANDS_L",
+      "z": 170,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "HOLD"
+      },
+      "x": 998,
+      "y": 890,
+      "w": 65,
+      "h": 60
+    },
+    {
+      "name": "ARM_L_HAND_PALM",
+      "group": "HANDS_L",
+      "z": 170,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "PALM"
+      },
+      "x": 1013,
+      "y": 890,
+      "w": 51,
+      "h": 87
+    },
+    {
+      "name": "ARM_L_HAND_NERVOUS",
+      "group": "HANDS_L",
+      "z": 170,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "NERVOUS"
+      },
+      "x": 999,
+      "y": 890,
+      "w": 64,
+      "h": 62
+    },
+    {
+      "name": "ARM_L_HAND_EXCITED",
+      "group": "HANDS_L",
+      "z": 170,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "EXCITED"
+      },
+      "x": 1013,
+      "y": 890,
+      "w": 52,
+      "h": 87
+    },
+    {
+      "name": "ARM_L_HAND_CLENCH",
+      "group": "HANDS_L",
+      "z": 170,
+      "pivot": [
+        1046,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "CLENCH"
+      },
+      "x": 1005,
+      "y": 890,
+      "w": 59,
+      "h": 54
+    },
+    {
+      "name": "ARM_R_SHOULDER",
+      "group": "ARM_R",
+      "z": 160,
+      "pivot": [
+        522,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 510,
+      "y": 692,
+      "w": 35,
+      "h": 33
+    },
+    {
+      "name": "ARM_R_UPPER",
+      "group": "ARM_R",
+      "z": 162,
+      "pivot": [
+        522,
+        704
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 456,
+      "y": 688,
+      "w": 79,
+      "h": 146
+    },
+    {
+      "name": "ARM_R_ELBOW",
+      "group": "ARM_R",
+      "z": 164,
+      "pivot": [
+        472,
+        810
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 458,
+      "y": 796,
+      "w": 28,
+      "h": 28
+    },
+    {
+      "name": "ARM_R_LOWER",
+      "group": "ARM_R",
+      "z": 166,
+      "pivot": [
+        472,
+        810
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 459,
+      "y": 786,
+      "w": 45,
+      "h": 134
+    },
+    {
+      "name": "ARM_R_WRIST",
+      "group": "ARM_R",
+      "z": 168,
+      "pivot": [
+        494,
+        904
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 482,
+      "y": 892,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "name": "ARM_R_HAND",
+      "group": "ARM_R",
+      "z": 170,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {
+        "pose": "RELAXED",
+        "tier": "front"
+      },
+      "x": 473,
+      "y": 890,
+      "w": 61,
+      "h": 77
+    },
+    {
+      "name": "ARM_R_SHOULDER_BACK",
+      "group": "ARM_R",
+      "z": 90,
+      "pivot": [
+        522,
+        704
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 510,
+      "y": 692,
+      "w": 35,
+      "h": 33
+    },
+    {
+      "name": "ARM_R_UPPER_BACK",
+      "group": "ARM_R",
+      "z": 92,
+      "pivot": [
+        522,
+        704
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 456,
+      "y": 688,
+      "w": 79,
+      "h": 146
+    },
+    {
+      "name": "ARM_R_ELBOW_BACK",
+      "group": "ARM_R",
+      "z": 94,
+      "pivot": [
+        472,
+        810
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 458,
+      "y": 796,
+      "w": 28,
+      "h": 28
+    },
+    {
+      "name": "ARM_R_LOWER_BACK",
+      "group": "ARM_R",
+      "z": 96,
+      "pivot": [
+        472,
+        810
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 459,
+      "y": 786,
+      "w": 45,
+      "h": 134
+    },
+    {
+      "name": "ARM_R_WRIST_BACK",
+      "group": "ARM_R",
+      "z": 98,
+      "pivot": [
+        494,
+        904
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 482,
+      "y": 892,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "name": "ARM_R_HAND_BACK",
+      "group": "ARM_R",
+      "z": 100,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "RELAXED",
+        "tier": "back"
+      },
+      "x": 473,
+      "y": 890,
+      "w": 61,
+      "h": 77
+    },
+    {
+      "name": "ARM_R_THUMB_1",
+      "group": "ARM_R",
+      "z": 171,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "THUMB",
+        "segment": 1
+      },
+      "x": 473,
+      "y": 911,
+      "w": 21,
+      "h": 26
+    },
+    {
+      "name": "ARM_R_THUMB_2",
+      "group": "ARM_R",
+      "z": 172,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "THUMB",
+        "segment": 2
+      },
+      "x": 480,
+      "y": 924,
+      "w": 24,
+      "h": 16
+    },
+    {
+      "name": "ARM_R_INDEX_1",
+      "group": "ARM_R",
+      "z": 171,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "INDEX",
+        "segment": 1
+      },
+      "x": 482,
+      "y": 928,
+      "w": 23,
+      "h": 29
+    },
+    {
+      "name": "ARM_R_INDEX_2",
+      "group": "ARM_R",
+      "z": 172,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "INDEX",
+        "segment": 2
+      },
+      "x": 493,
+      "y": 945,
+      "w": 22,
+      "h": 22
+    },
+    {
+      "name": "ARM_R_MIDDLE_1",
+      "group": "ARM_R",
+      "z": 171,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "MIDDLE",
+        "segment": 1
+      },
+      "x": 491,
+      "y": 925,
+      "w": 23,
+      "h": 32
+    },
+    {
+      "name": "ARM_R_MIDDLE_2",
+      "group": "ARM_R",
+      "z": 172,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "MIDDLE",
+        "segment": 2
+      },
+      "x": 502,
+      "y": 945,
+      "w": 24,
+      "h": 22
+    },
+    {
+      "name": "ARM_R_RING_1",
+      "group": "ARM_R",
+      "z": 171,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "RING",
+        "segment": 1
+      },
+      "x": 500,
+      "y": 923,
+      "w": 20,
+      "h": 30
+    },
+    {
+      "name": "ARM_R_RING_2",
+      "group": "ARM_R",
+      "z": 172,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "RING",
+        "segment": 2
+      },
+      "x": 508,
+      "y": 941,
+      "w": 23,
+      "h": 20
+    },
+    {
+      "name": "ARM_R_PINKY_1",
+      "group": "ARM_R",
+      "z": 171,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "PINKY",
+        "segment": 1
+      },
+      "x": 508,
+      "y": 921,
+      "w": 17,
+      "h": 26
+    },
+    {
+      "name": "ARM_R_PINKY_2",
+      "group": "ARM_R",
+      "z": 172,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "finger": "PINKY",
+        "segment": 2
+      },
+      "x": 514,
+      "y": 936,
+      "w": 20,
+      "h": 17
+    },
+    {
+      "name": "ARM_R_HAND_RELAXED",
+      "group": "HANDS_R",
+      "z": 170,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "RELAXED"
+      },
+      "x": 473,
+      "y": 890,
+      "w": 61,
+      "h": 77
+    },
+    {
+      "name": "ARM_R_HAND_FIST",
+      "group": "HANDS_R",
+      "z": 170,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "FIST"
+      },
+      "x": 473,
+      "y": 890,
+      "w": 59,
+      "h": 56
+    },
+    {
+      "name": "ARM_R_HAND_POINT",
+      "group": "HANDS_R",
+      "z": 170,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "POINT"
+      },
+      "x": 473,
+      "y": 890,
+      "w": 59,
+      "h": 85
+    },
+    {
+      "name": "ARM_R_HAND_WAVE",
+      "group": "HANDS_R",
+      "z": 170,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "WAVE"
+      },
+      "x": 472,
+      "y": 890,
+      "w": 50,
+      "h": 86
+    },
+    {
+      "name": "ARM_R_HAND_GRAB",
+      "group": "HANDS_R",
+      "z": 170,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "GRAB"
+      },
+      "x": 473,
+      "y": 890,
+      "w": 63,
+      "h": 59
+    },
+    {
+      "name": "ARM_R_HAND_HOLD",
+      "group": "HANDS_R",
+      "z": 170,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "HOLD"
+      },
+      "x": 473,
+      "y": 890,
+      "w": 65,
+      "h": 60
+    },
+    {
+      "name": "ARM_R_HAND_PALM",
+      "group": "HANDS_R",
+      "z": 170,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "PALM"
+      },
+      "x": 472,
+      "y": 890,
+      "w": 51,
+      "h": 87
+    },
+    {
+      "name": "ARM_R_HAND_NERVOUS",
+      "group": "HANDS_R",
+      "z": 170,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "NERVOUS"
+      },
+      "x": 473,
+      "y": 890,
+      "w": 64,
+      "h": 62
+    },
+    {
+      "name": "ARM_R_HAND_EXCITED",
+      "group": "HANDS_R",
+      "z": 170,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "EXCITED"
+      },
+      "x": 471,
+      "y": 890,
+      "w": 52,
+      "h": 87
+    },
+    {
+      "name": "ARM_R_HAND_CLENCH",
+      "group": "HANDS_R",
+      "z": 170,
+      "pivot": [
+        490,
+        908
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {
+        "pose": "CLENCH"
+      },
+      "x": 472,
+      "y": 890,
+      "w": 59,
+      "h": 54
+    },
+    {
+      "name": "LEG_L_HIP",
+      "group": "LEG_L",
+      "z": 84,
+      "pivot": [
+        846,
+        1258
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 823,
+      "y": 1235,
+      "w": 46,
+      "h": 38
+    },
+    {
+      "name": "LEG_L_UPPER",
+      "group": "LEG_L",
+      "z": 82,
+      "pivot": [
+        846,
+        1258
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 831,
+      "y": 1238,
+      "w": 43,
+      "h": 170
+    },
+    {
+      "name": "LEG_L_KNEE",
+      "group": "LEG_L",
+      "z": 80,
+      "pivot": [
+        860,
+        1378
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 851,
+      "y": 1369,
+      "w": 18,
+      "h": 18
+    },
+    {
+      "name": "LEG_L_LOWER",
+      "group": "LEG_L",
+      "z": 78,
+      "pivot": [
+        860,
+        1378
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 832,
+      "y": 1350,
+      "w": 43,
+      "h": 154
+    },
+    {
+      "name": "LEG_L_ANKLE",
+      "group": "LEG_L",
+      "z": 76,
+      "pivot": [
+        844,
+        1482
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 833,
+      "y": 1471,
+      "w": 22,
+      "h": 22
+    },
+    {
+      "name": "LEG_L_FOOT",
+      "group": "LEG_L",
+      "z": 74,
+      "pivot": [
+        848,
+        1496
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 794,
+      "y": 1480,
+      "w": 165,
+      "h": 75
+    },
+    {
+      "name": "SHOE_L_BODY",
+      "group": "LEG_L",
+      "z": 74,
+      "pivot": [
+        848,
+        1496
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 794,
+      "y": 1480,
+      "w": 164,
+      "h": 75
+    },
+    {
+      "name": "SHOE_L_UPPER",
+      "group": "LEG_L",
+      "z": 75,
+      "pivot": [
+        848,
+        1496
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 804,
+      "y": 1482,
+      "w": 66,
+      "h": 60
+    },
+    {
+      "name": "SHOE_L_SOLE",
+      "group": "LEG_L",
+      "z": 72,
+      "pivot": [
+        848,
+        1496
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 794,
+      "y": 1528,
+      "w": 168,
+      "h": 40
+    },
+    {
+      "name": "SHOE_L_TOE",
+      "group": "LEG_L",
+      "z": 76,
+      "pivot": [
+        848,
+        1496
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 906,
+      "y": 1497,
+      "w": 53,
+      "h": 47
+    },
+    {
+      "name": "SHOE_L_LACES",
+      "group": "LEG_L",
+      "z": 77,
+      "pivot": [
+        848,
+        1496
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 860,
+      "y": 1492,
+      "w": 47,
+      "h": 23
+    },
+    {
+      "name": "SHOE_L_TRIM",
+      "group": "LEG_L",
+      "z": 76,
+      "pivot": [
+        848,
+        1496
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 810,
+      "y": 1508,
+      "w": 49,
+      "h": 13
+    },
+    {
+      "name": "LEG_R_HIP",
+      "group": "LEG_R",
+      "z": 84,
+      "pivot": [
+        690,
+        1258
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 667,
+      "y": 1235,
+      "w": 46,
+      "h": 38
+    },
+    {
+      "name": "LEG_R_UPPER",
+      "group": "LEG_R",
+      "z": 82,
+      "pivot": [
+        690,
+        1258
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 662,
+      "y": 1238,
+      "w": 43,
+      "h": 170
+    },
+    {
+      "name": "LEG_R_KNEE",
+      "group": "LEG_R",
+      "z": 80,
+      "pivot": [
+        676,
+        1378
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 667,
+      "y": 1369,
+      "w": 18,
+      "h": 18
+    },
+    {
+      "name": "LEG_R_LOWER",
+      "group": "LEG_R",
+      "z": 78,
+      "pivot": [
+        676,
+        1378
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 661,
+      "y": 1350,
+      "w": 43,
+      "h": 154
+    },
+    {
+      "name": "LEG_R_ANKLE",
+      "group": "LEG_R",
+      "z": 76,
+      "pivot": [
+        692,
+        1482
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 681,
+      "y": 1471,
+      "w": 22,
+      "h": 22
+    },
+    {
+      "name": "LEG_R_FOOT",
+      "group": "LEG_R",
+      "z": 74,
+      "pivot": [
+        688,
+        1496
+      ],
+      "hidden": false,
+      "guide": false,
+      "meta": {},
+      "x": 577,
+      "y": 1481,
+      "w": 164,
+      "h": 74
+    },
+    {
+      "name": "SHOE_R_BODY",
+      "group": "LEG_R",
+      "z": 74,
+      "pivot": [
+        688,
+        1496
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 578,
+      "y": 1481,
+      "w": 163,
+      "h": 74
+    },
+    {
+      "name": "SHOE_R_UPPER",
+      "group": "LEG_R",
+      "z": 75,
+      "pivot": [
+        688,
+        1496
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 666,
+      "y": 1481,
+      "w": 65,
+      "h": 61
+    },
+    {
+      "name": "SHOE_R_SOLE",
+      "group": "LEG_R",
+      "z": 72,
+      "pivot": [
+        688,
+        1496
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 574,
+      "y": 1528,
+      "w": 168,
+      "h": 40
+    },
+    {
+      "name": "SHOE_R_TOE",
+      "group": "LEG_R",
+      "z": 76,
+      "pivot": [
+        688,
+        1496
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 577,
+      "y": 1497,
+      "w": 54,
+      "h": 47
+    },
+    {
+      "name": "SHOE_R_LACES",
+      "group": "LEG_R",
+      "z": 77,
+      "pivot": [
+        688,
+        1496
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 629,
+      "y": 1492,
+      "w": 47,
+      "h": 23
+    },
+    {
+      "name": "SHOE_R_TRIM",
+      "group": "LEG_R",
+      "z": 76,
+      "pivot": [
+        688,
+        1496
+      ],
+      "hidden": true,
+      "guide": false,
+      "meta": {},
+      "x": 677,
+      "y": 1507,
+      "w": 49,
+      "h": 14
+    }
+  ],
+  "counts": {
+    "components": 184
+  }
+}

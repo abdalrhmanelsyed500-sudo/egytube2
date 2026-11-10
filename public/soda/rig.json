@@ -1,0 +1,1502 @@
+{
+  "character": "THE SODA CAN",
+  "version": "1.0.0",
+  "canvas": {
+    "width": 1536,
+    "height": 1700,
+    "origin": "top-left"
+  },
+  "boneCount": 41,
+  "bones": [
+    {
+      "name": "GLOBAL_ROOT",
+      "parent": null,
+      "pivot": {
+        "x": 768,
+        "y": 1696
+      },
+      "tip": [
+        768,
+        1640
+      ],
+      "color": "#7d5cff"
+    },
+    {
+      "name": "CHARACTER_ROOT",
+      "parent": "GLOBAL_ROOT",
+      "pivot": {
+        "x": 768,
+        "y": 1258
+      },
+      "tip": [
+        768,
+        1300
+      ],
+      "color": "#7d5cff"
+    },
+    {
+      "name": "CAN_BODY",
+      "parent": "CHARACTER_ROOT",
+      "pivot": {
+        "x": 768,
+        "y": 844
+      },
+      "tip": [
+        768,
+        460
+      ],
+      "color": "#e05a3c"
+    },
+    {
+      "name": "CAN_BODY_SQUASH",
+      "parent": "CAN_BODY",
+      "pivot": {
+        "x": 768,
+        "y": 1258
+      },
+      "tip": [
+        768,
+        1250
+      ],
+      "color": "#e05a3c"
+    },
+    {
+      "name": "CAN_SHOULDER_L",
+      "parent": "CAN_BODY_SQUASH",
+      "pivot": {
+        "x": 1014,
+        "y": 704
+      },
+      "tip": [
+        1064,
+        810
+      ],
+      "color": null
+    },
+    {
+      "name": "CAN_SHOULDER_R",
+      "parent": "CAN_BODY_SQUASH",
+      "pivot": {
+        "x": 522,
+        "y": 704
+      },
+      "tip": [
+        472,
+        810
+      ],
+      "color": null
+    },
+    {
+      "name": "CAN_HIP_L",
+      "parent": "CAN_BODY_SQUASH",
+      "pivot": {
+        "x": 846,
+        "y": 1258
+      },
+      "tip": [
+        860,
+        1378
+      ],
+      "color": null
+    },
+    {
+      "name": "CAN_HIP_R",
+      "parent": "CAN_BODY_SQUASH",
+      "pivot": {
+        "x": 690,
+        "y": 1258
+      },
+      "tip": [
+        676,
+        1378
+      ],
+      "color": null
+    },
+    {
+      "name": "CAN_TOP_LID",
+      "parent": "CAN_BODY_SQUASH",
+      "pivot": {
+        "x": 768,
+        "y": 424
+      },
+      "tip": [
+        768,
+        360
+      ],
+      "color": "#a8a29a"
+    },
+    {
+      "name": "CAN_PULL_TAB",
+      "parent": "CAN_TOP_LID",
+      "pivot": {
+        "x": 708,
+        "y": 360
+      },
+      "tip": [
+        700,
+        320
+      ],
+      "color": "#a8a29a"
+    },
+    {
+      "name": "CAN_BOTTOM_RIM",
+      "parent": "CAN_BODY_SQUASH",
+      "pivot": {
+        "x": 768,
+        "y": 1258
+      },
+      "tip": [
+        768,
+        1280
+      ],
+      "color": "#a8a29a"
+    },
+    {
+      "name": "FACE_ROOT",
+      "parent": "CAN_BODY_SQUASH",
+      "pivot": {
+        "x": 768,
+        "y": 764
+      },
+      "tip": [
+        768,
+        700
+      ],
+      "color": "#f0b429"
+    },
+    {
+      "name": "EYE_L",
+      "parent": "FACE_ROOT",
+      "pivot": {
+        "x": 864,
+        "y": 704
+      },
+      "tip": [
+        864,
+        640
+      ],
+      "color": "#4aa3ff"
+    },
+    {
+      "name": "EYE_R",
+      "parent": "FACE_ROOT",
+      "pivot": {
+        "x": 672,
+        "y": 704
+      },
+      "tip": [
+        672,
+        640
+      ],
+      "color": "#4aa3ff"
+    },
+    {
+      "name": "EYE_L_IRIS",
+      "parent": "EYE_L",
+      "pivot": {
+        "x": 864,
+        "y": 704
+      },
+      "tip": [
+        864,
+        760
+      ],
+      "color": "#8f6bff"
+    },
+    {
+      "name": "EYE_R_IRIS",
+      "parent": "EYE_R",
+      "pivot": {
+        "x": 672,
+        "y": 704
+      },
+      "tip": [
+        672,
+        760
+      ],
+      "color": "#8f6bff"
+    },
+    {
+      "name": "EYE_L_PUPIL",
+      "parent": "EYE_L_IRIS",
+      "pivot": {
+        "x": 864,
+        "y": 704
+      },
+      "tip": [
+        864,
+        745
+      ],
+      "color": "#2b2b2b"
+    },
+    {
+      "name": "EYE_R_PUPIL",
+      "parent": "EYE_R_IRIS",
+      "pivot": {
+        "x": 672,
+        "y": 704
+      },
+      "tip": [
+        672,
+        745
+      ],
+      "color": "#2b2b2b"
+    },
+    {
+      "name": "EYE_L_UPPER_LID",
+      "parent": "EYE_L",
+      "pivot": {
+        "x": 864,
+        "y": 704
+      },
+      "tip": [
+        864,
+        690
+      ],
+      "color": "#ff8fa3"
+    },
+    {
+      "name": "EYE_R_UPPER_LID",
+      "parent": "EYE_R",
+      "pivot": {
+        "x": 672,
+        "y": 704
+      },
+      "tip": [
+        672,
+        690
+      ],
+      "color": "#ff8fa3"
+    },
+    {
+      "name": "EYE_L_LOWER_LID",
+      "parent": "EYE_L",
+      "pivot": {
+        "x": 864,
+        "y": 704
+      },
+      "tip": [
+        864,
+        900
+      ],
+      "color": "#ff8fa3"
+    },
+    {
+      "name": "EYE_R_LOWER_LID",
+      "parent": "EYE_R",
+      "pivot": {
+        "x": 672,
+        "y": 704
+      },
+      "tip": [
+        672,
+        900
+      ],
+      "color": "#ff8fa3"
+    },
+    {
+      "name": "BROW_L",
+      "parent": "FACE_ROOT",
+      "pivot": {
+        "x": 864,
+        "y": 604
+      },
+      "tip": [
+        890,
+        660
+      ],
+      "color": "#ff8fa3"
+    },
+    {
+      "name": "BROW_R",
+      "parent": "FACE_ROOT",
+      "pivot": {
+        "x": 672,
+        "y": 604
+      },
+      "tip": [
+        646,
+        660
+      ],
+      "color": "#ff8fa3"
+    },
+    {
+      "name": "MOUTH",
+      "parent": "FACE_ROOT",
+      "pivot": {
+        "x": 768,
+        "y": 894
+      },
+      "tip": [
+        768,
+        940
+      ],
+      "color": "#ff5f5f"
+    },
+    {
+      "name": "ARM_L_SHOULDER",
+      "parent": "CAN_BODY_SQUASH",
+      "pivot": {
+        "x": 1014,
+        "y": 704
+      },
+      "tip": [
+        1064,
+        810
+      ],
+      "color": "#3fd0a0"
+    },
+    {
+      "name": "ARM_L_ELBOW",
+      "parent": "ARM_L_SHOULDER",
+      "pivot": {
+        "x": 1064,
+        "y": 810
+      },
+      "tip": [
+        1042,
+        904
+      ],
+      "color": "#3fd0a0"
+    },
+    {
+      "name": "ARM_L_WRIST",
+      "parent": "ARM_L_ELBOW",
+      "pivot": {
+        "x": 1042,
+        "y": 904
+      },
+      "tip": [
+        1046,
+        908
+      ],
+      "color": "#3fd0a0"
+    },
+    {
+      "name": "ARM_L_HAND",
+      "parent": "ARM_L_WRIST",
+      "pivot": {
+        "x": 1046,
+        "y": 908
+      },
+      "tip": [
+        1060,
+        1080
+      ],
+      "color": "#3fd0a0"
+    },
+    {
+      "name": "ARM_R_SHOULDER",
+      "parent": "CAN_BODY_SQUASH",
+      "pivot": {
+        "x": 522,
+        "y": 704
+      },
+      "tip": [
+        472,
+        810
+      ],
+      "color": "#3fd0a0"
+    },
+    {
+      "name": "ARM_R_ELBOW",
+      "parent": "ARM_R_SHOULDER",
+      "pivot": {
+        "x": 472,
+        "y": 810
+      },
+      "tip": [
+        494,
+        904
+      ],
+      "color": "#3fd0a0"
+    },
+    {
+      "name": "ARM_R_WRIST",
+      "parent": "ARM_R_ELBOW",
+      "pivot": {
+        "x": 494,
+        "y": 904
+      },
+      "tip": [
+        490,
+        908
+      ],
+      "color": "#3fd0a0"
+    },
+    {
+      "name": "ARM_R_HAND",
+      "parent": "ARM_R_WRIST",
+      "pivot": {
+        "x": 490,
+        "y": 908
+      },
+      "tip": [
+        476,
+        1080
+      ],
+      "color": "#3fd0a0"
+    },
+    {
+      "name": "LEG_L_HIP",
+      "parent": "CAN_BODY_SQUASH",
+      "pivot": {
+        "x": 846,
+        "y": 1258
+      },
+      "tip": [
+        860,
+        1378
+      ],
+      "color": "#ffb03f"
+    },
+    {
+      "name": "LEG_L_KNEE",
+      "parent": "LEG_L_HIP",
+      "pivot": {
+        "x": 860,
+        "y": 1378
+      },
+      "tip": [
+        844,
+        1482
+      ],
+      "color": "#ffb03f"
+    },
+    {
+      "name": "LEG_L_ANKLE",
+      "parent": "LEG_L_KNEE",
+      "pivot": {
+        "x": 844,
+        "y": 1482
+      },
+      "tip": [
+        848,
+        1496
+      ],
+      "color": "#ffb03f"
+    },
+    {
+      "name": "LEG_L_FOOT",
+      "parent": "LEG_L_ANKLE",
+      "pivot": {
+        "x": 848,
+        "y": 1496
+      },
+      "tip": [
+        900,
+        1600
+      ],
+      "color": "#ffb03f"
+    },
+    {
+      "name": "LEG_R_HIP",
+      "parent": "CAN_BODY_SQUASH",
+      "pivot": {
+        "x": 690,
+        "y": 1258
+      },
+      "tip": [
+        676,
+        1378
+      ],
+      "color": "#ffb03f"
+    },
+    {
+      "name": "LEG_R_KNEE",
+      "parent": "LEG_R_HIP",
+      "pivot": {
+        "x": 676,
+        "y": 1378
+      },
+      "tip": [
+        692,
+        1482
+      ],
+      "color": "#ffb03f"
+    },
+    {
+      "name": "LEG_R_ANKLE",
+      "parent": "LEG_R_KNEE",
+      "pivot": {
+        "x": 692,
+        "y": 1482
+      },
+      "tip": [
+        688,
+        1496
+      ],
+      "color": "#ffb03f"
+    },
+    {
+      "name": "LEG_R_FOOT",
+      "parent": "LEG_R_ANKLE",
+      "pivot": {
+        "x": 688,
+        "y": 1496
+      },
+      "tip": [
+        636,
+        1600
+      ],
+      "color": "#ffb03f"
+    }
+  ],
+  "ikChains": [
+    {
+      "name": "IK_ARM_L",
+      "root": "ARM_L_SHOULDER",
+      "mid": "ARM_L_ELBOW",
+      "end": "ARM_L_WRIST",
+      "pole": 1
+    },
+    {
+      "name": "IK_ARM_R",
+      "root": "ARM_R_SHOULDER",
+      "mid": "ARM_R_ELBOW",
+      "end": "ARM_R_WRIST",
+      "pole": -1
+    },
+    {
+      "name": "IK_LEG_L",
+      "root": "LEG_L_HIP",
+      "mid": "LEG_L_KNEE",
+      "end": "LEG_L_ANKLE",
+      "pole": 1
+    },
+    {
+      "name": "IK_LEG_R",
+      "root": "LEG_R_HIP",
+      "mid": "LEG_R_KNEE",
+      "end": "LEG_R_ANKLE",
+      "pole": -1
+    }
+  ],
+  "bindings": [
+    {
+      "layer": "CAN_BODY_MAIN",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_SIDE_R",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_SIDE_L",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BODY_SHADOWS",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BODY_HIGHLIGHTS",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BODY_STRIPE",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BODY_DEFORM_GUIDE",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BOTTOM_RIM",
+      "bone": "CAN_BOTTOM_RIM",
+      "mode": "rigid"
+    },
+    {
+      "layer": "CAN_TOP_LID",
+      "bone": "CAN_TOP_LID",
+      "mode": "rigid"
+    },
+    {
+      "layer": "CAN_PULL_TAB",
+      "bone": "CAN_PULL_TAB",
+      "mode": "rigid"
+    },
+    {
+      "layer": "CAN_PULL_TAB_HOLE",
+      "bone": "CAN_TOP_LID",
+      "mode": "rigid"
+    },
+    {
+      "layer": "CAN_BUBBLE_01",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_02",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_03",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_04",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_05",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_06",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_07",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_08",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_09",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_10",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_11",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_12",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_13",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_14",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_15",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_16",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_17",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "CAN_BUBBLE_18",
+      "bone": "CAN_BODY_SQUASH",
+      "mode": "squash"
+    },
+    {
+      "layer": "EYE_L_SOCKET",
+      "bone": "EYE_L",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_L_SCLERA",
+      "bone": "EYE_L",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_L_OUTLINE",
+      "bone": "EYE_L",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_L_LASHES",
+      "bone": "EYE_L",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_R_SOCKET",
+      "bone": "EYE_R",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_R_SCLERA",
+      "bone": "EYE_R",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_R_OUTLINE",
+      "bone": "EYE_R",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_R_LASHES",
+      "bone": "EYE_R",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_L_IRIS",
+      "bone": "EYE_L_IRIS",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_R_IRIS",
+      "bone": "EYE_R_IRIS",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_L_PUPIL",
+      "bone": "EYE_L_PUPIL",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_L_HIGHLIGHT",
+      "bone": "EYE_L_PUPIL",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_L_HIGHLIGHT_2",
+      "bone": "EYE_L_PUPIL",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_R_PUPIL",
+      "bone": "EYE_R_PUPIL",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_R_HIGHLIGHT",
+      "bone": "EYE_R_PUPIL",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_R_HIGHLIGHT_2",
+      "bone": "EYE_R_PUPIL",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYE_L_UPPER_LID",
+      "bone": "EYE_L_UPPER_LID",
+      "mode": "lid"
+    },
+    {
+      "layer": "EYE_R_UPPER_LID",
+      "bone": "EYE_R_UPPER_LID",
+      "mode": "lid"
+    },
+    {
+      "layer": "EYE_L_LOWER_LID",
+      "bone": "EYE_L_LOWER_LID",
+      "mode": "lid"
+    },
+    {
+      "layer": "EYE_R_LOWER_LID",
+      "bone": "EYE_R_LOWER_LID",
+      "mode": "lid"
+    },
+    {
+      "layer": "EYEBROW_L",
+      "bone": "BROW_L",
+      "mode": "rigid"
+    },
+    {
+      "layer": "EYEBROW_R",
+      "bone": "BROW_R",
+      "mode": "rigid"
+    },
+    {
+      "layer": "CHEEK_L",
+      "bone": "FACE_ROOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "CHEEK_R",
+      "bone": "FACE_ROOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "FACE_TEAR_L",
+      "bone": "FACE_ROOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "FACE_TEAR_R",
+      "bone": "FACE_ROOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "FACE_SWEAT",
+      "bone": "FACE_ROOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "FX_SURPRISE",
+      "bone": "FACE_ROOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "FX_ANGER",
+      "bone": "FACE_ROOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "FX_IDEA",
+      "bone": "FACE_ROOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "MOUTH_JAW",
+      "bone": "MOUTH",
+      "mode": "rigid"
+    },
+    {
+      "layer": "MOUTH_TONGUE_SEP",
+      "bone": "MOUTH",
+      "mode": "rigid"
+    },
+    {
+      "layer": "MOUTH_TEETH_UPPER",
+      "bone": "MOUTH",
+      "mode": "rigid"
+    },
+    {
+      "layer": "MOUTH_TEETH_LOWER",
+      "bone": "MOUTH",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_SHOULDER",
+      "bone": "ARM_L_SHOULDER",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_UPPER",
+      "bone": "ARM_L_SHOULDER",
+      "mode": "limb-up",
+      "child": "ARM_L_ELBOW"
+    },
+    {
+      "layer": "ARM_L_ELBOW",
+      "bone": "ARM_L_ELBOW",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_LOWER",
+      "bone": "ARM_L_ELBOW",
+      "mode": "limb-low",
+      "child": "ARM_L_WRIST"
+    },
+    {
+      "layer": "ARM_L_WRIST",
+      "bone": "ARM_L_WRIST",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_HAND",
+      "bone": "ARM_L_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_SHOULDER_BACK",
+      "bone": "ARM_L_SHOULDER",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_UPPER_BACK",
+      "bone": "ARM_L_SHOULDER",
+      "mode": "limb-up",
+      "child": "ARM_L_ELBOW"
+    },
+    {
+      "layer": "ARM_L_ELBOW_BACK",
+      "bone": "ARM_L_ELBOW",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_LOWER_BACK",
+      "bone": "ARM_L_ELBOW",
+      "mode": "limb-low",
+      "child": "ARM_L_WRIST"
+    },
+    {
+      "layer": "ARM_L_WRIST_BACK",
+      "bone": "ARM_L_WRIST",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_HAND_BACK",
+      "bone": "ARM_L_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_THUMB_1",
+      "bone": "ARM_L_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_THUMB_2",
+      "bone": "ARM_L_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_INDEX_1",
+      "bone": "ARM_L_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_INDEX_2",
+      "bone": "ARM_L_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_MIDDLE_1",
+      "bone": "ARM_L_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_MIDDLE_2",
+      "bone": "ARM_L_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_RING_1",
+      "bone": "ARM_L_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_RING_2",
+      "bone": "ARM_L_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_PINKY_1",
+      "bone": "ARM_L_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_L_PINKY_2",
+      "bone": "ARM_L_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "LEG_L_HIP",
+      "bone": "LEG_L_HIP",
+      "mode": "rigid"
+    },
+    {
+      "layer": "LEG_L_UPPER",
+      "bone": "LEG_L_HIP",
+      "mode": "limb-up",
+      "child": "LEG_L_KNEE"
+    },
+    {
+      "layer": "LEG_L_KNEE",
+      "bone": "LEG_L_KNEE",
+      "mode": "rigid"
+    },
+    {
+      "layer": "LEG_L_LOWER",
+      "bone": "LEG_L_KNEE",
+      "mode": "limb-low",
+      "child": "LEG_L_ANKLE"
+    },
+    {
+      "layer": "LEG_L_ANKLE",
+      "bone": "LEG_L_ANKLE",
+      "mode": "rigid"
+    },
+    {
+      "layer": "LEG_L_FOOT",
+      "bone": "LEG_L_FOOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "SHOE_L_BODY",
+      "bone": "LEG_L_FOOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "SHOE_L_UPPER",
+      "bone": "LEG_L_FOOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "SHOE_L_SOLE",
+      "bone": "LEG_L_FOOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "SHOE_L_TOE",
+      "bone": "LEG_L_FOOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "SHOE_L_LACES",
+      "bone": "LEG_L_FOOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "SHOE_L_TRIM",
+      "bone": "LEG_L_FOOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_SHOULDER",
+      "bone": "ARM_R_SHOULDER",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_UPPER",
+      "bone": "ARM_R_SHOULDER",
+      "mode": "limb-up",
+      "child": "ARM_R_ELBOW"
+    },
+    {
+      "layer": "ARM_R_ELBOW",
+      "bone": "ARM_R_ELBOW",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_LOWER",
+      "bone": "ARM_R_ELBOW",
+      "mode": "limb-low",
+      "child": "ARM_R_WRIST"
+    },
+    {
+      "layer": "ARM_R_WRIST",
+      "bone": "ARM_R_WRIST",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_HAND",
+      "bone": "ARM_R_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_SHOULDER_BACK",
+      "bone": "ARM_R_SHOULDER",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_UPPER_BACK",
+      "bone": "ARM_R_SHOULDER",
+      "mode": "limb-up",
+      "child": "ARM_R_ELBOW"
+    },
+    {
+      "layer": "ARM_R_ELBOW_BACK",
+      "bone": "ARM_R_ELBOW",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_LOWER_BACK",
+      "bone": "ARM_R_ELBOW",
+      "mode": "limb-low",
+      "child": "ARM_R_WRIST"
+    },
+    {
+      "layer": "ARM_R_WRIST_BACK",
+      "bone": "ARM_R_WRIST",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_HAND_BACK",
+      "bone": "ARM_R_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_THUMB_1",
+      "bone": "ARM_R_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_THUMB_2",
+      "bone": "ARM_R_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_INDEX_1",
+      "bone": "ARM_R_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_INDEX_2",
+      "bone": "ARM_R_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_MIDDLE_1",
+      "bone": "ARM_R_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_MIDDLE_2",
+      "bone": "ARM_R_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_RING_1",
+      "bone": "ARM_R_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_RING_2",
+      "bone": "ARM_R_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_PINKY_1",
+      "bone": "ARM_R_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "ARM_R_PINKY_2",
+      "bone": "ARM_R_HAND",
+      "mode": "rigid"
+    },
+    {
+      "layer": "LEG_R_HIP",
+      "bone": "LEG_R_HIP",
+      "mode": "rigid"
+    },
+    {
+      "layer": "LEG_R_UPPER",
+      "bone": "LEG_R_HIP",
+      "mode": "limb-up",
+      "child": "LEG_R_KNEE"
+    },
+    {
+      "layer": "LEG_R_KNEE",
+      "bone": "LEG_R_KNEE",
+      "mode": "rigid"
+    },
+    {
+      "layer": "LEG_R_LOWER",
+      "bone": "LEG_R_KNEE",
+      "mode": "limb-low",
+      "child": "LEG_R_ANKLE"
+    },
+    {
+      "layer": "LEG_R_ANKLE",
+      "bone": "LEG_R_ANKLE",
+      "mode": "rigid"
+    },
+    {
+      "layer": "LEG_R_FOOT",
+      "bone": "LEG_R_FOOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "SHOE_R_BODY",
+      "bone": "LEG_R_FOOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "SHOE_R_UPPER",
+      "bone": "LEG_R_FOOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "SHOE_R_SOLE",
+      "bone": "LEG_R_FOOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "SHOE_R_TOE",
+      "bone": "LEG_R_FOOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "SHOE_R_LACES",
+      "bone": "LEG_R_FOOT",
+      "mode": "rigid"
+    },
+    {
+      "layer": "SHOE_R_TRIM",
+      "bone": "LEG_R_FOOT",
+      "mode": "rigid"
+    }
+  ],
+  "controllers": [
+    {
+      "id": "root",
+      "label": "Root / Translate + Rotate",
+      "bone": "GLOBAL_ROOT",
+      "type": "transform"
+    },
+    {
+      "id": "bodyTilt",
+      "label": "Body Tilt",
+      "bone": "CAN_BODY",
+      "type": "rotate",
+      "min": -14,
+      "max": 14
+    },
+    {
+      "id": "squash",
+      "label": "Squash / Stretch",
+      "bone": "CAN_BODY_SQUASH",
+      "type": "squash",
+      "min": 0.72,
+      "max": 1.28
+    },
+    {
+      "id": "bodyBounce",
+      "label": "Body Bounce (offset Y)",
+      "bone": "CAN_BODY",
+      "type": "offsetY",
+      "min": -160,
+      "max": 160
+    },
+    {
+      "id": "lid",
+      "label": "Top Lid Toggle",
+      "bone": "CAN_TOP_LID",
+      "type": "lid"
+    },
+    {
+      "id": "pullTab",
+      "label": "Pull Tab Raise",
+      "bone": "CAN_PULL_TAB",
+      "type": "rotate",
+      "min": -40,
+      "max": 10
+    },
+    {
+      "id": "gazeX",
+      "label": "Eye Target X",
+      "bone": null,
+      "type": "eyeTargetX",
+      "min": -1,
+      "max": 1
+    },
+    {
+      "id": "gazeY",
+      "label": "Eye Target Y",
+      "bone": null,
+      "type": "eyeTargetY",
+      "min": -1,
+      "max": 1
+    },
+    {
+      "id": "crossEye",
+      "label": "Cross-eye Amount",
+      "bone": null,
+      "type": "cross",
+      "min": 0,
+      "max": 1
+    },
+    {
+      "id": "irisScale",
+      "label": "Iris Scale (surprise)",
+      "bone": "EYE_L_IRIS",
+      "type": "scale",
+      "min": 0.7,
+      "max": 1.35
+    },
+    {
+      "id": "blinkL",
+      "label": "Blink L",
+      "bone": "EYE_L_UPPER_LID",
+      "type": "blink",
+      "min": 0,
+      "max": 1
+    },
+    {
+      "id": "blinkR",
+      "label": "Blink R",
+      "bone": "EYE_R_UPPER_LID",
+      "type": "blink",
+      "min": 0,
+      "max": 1
+    },
+    {
+      "id": "squint",
+      "label": "Squint (lower lids)",
+      "bone": null,
+      "type": "squint",
+      "min": 0,
+      "max": 1
+    },
+    {
+      "id": "browLift",
+      "label": "Brow Lift (both)",
+      "bone": "BROW_L",
+      "type": "browLift",
+      "min": -24,
+      "max": 30
+    },
+    {
+      "id": "browTiltL",
+      "label": "Brow Tilt L",
+      "bone": "BROW_L",
+      "type": "browTilt",
+      "min": -20,
+      "max": 20
+    },
+    {
+      "id": "browTiltR",
+      "label": "Brow Tilt R",
+      "bone": "BROW_R",
+      "type": "browTilt",
+      "min": -20,
+      "max": 20
+    },
+    {
+      "id": "browInner",
+      "label": "Brow Inner (both)",
+      "bone": "BROW_L",
+      "type": "browInner",
+      "min": -14,
+      "max": 14
+    },
+    {
+      "id": "jaw",
+      "label": "Jaw Open",
+      "bone": "MOUTH",
+      "type": "jaw",
+      "min": 0,
+      "max": 1
+    },
+    {
+      "id": "mouthSwitch",
+      "label": "Mouth Shape Switch",
+      "bone": null,
+      "type": "mouthSwitch",
+      "options": "MOUTH_LIBRARY"
+    },
+    {
+      "id": "ikArmL",
+      "label": "IK Arm L",
+      "bone": "ARM_L_WRIST",
+      "type": "ik"
+    },
+    {
+      "id": "ikArmR",
+      "label": "IK Arm R",
+      "bone": "ARM_R_WRIST",
+      "type": "ik"
+    },
+    {
+      "id": "ikLegL",
+      "label": "IK Leg L",
+      "bone": "LEG_L_ANKLE",
+      "type": "ik"
+    },
+    {
+      "id": "ikLegR",
+      "label": "IK Leg R",
+      "bone": "LEG_R_ANKLE",
+      "type": "ik"
+    },
+    {
+      "id": "fkArmL",
+      "label": "FK Arm L (shoulder/elbow/wrist)",
+      "bone": "ARM_L_SHOULDER",
+      "type": "fk"
+    },
+    {
+      "id": "fkArmR",
+      "label": "FK Arm R (shoulder/elbow/wrist)",
+      "bone": "ARM_R_SHOULDER",
+      "type": "fk"
+    },
+    {
+      "id": "fkLegL",
+      "label": "FK Leg L (hip/knee/ankle)",
+      "bone": "LEG_L_HIP",
+      "type": "fk"
+    },
+    {
+      "id": "fkLegR",
+      "label": "FK Leg R (hip/knee/ankle)",
+      "bone": "LEG_R_HIP",
+      "type": "fk"
+    },
+    {
+      "id": "handL",
+      "label": "Hand L Pose Switch",
+      "bone": "ARM_L_HAND",
+      "type": "handSwitch"
+    },
+    {
+      "id": "handR",
+      "label": "Hand R Pose Switch",
+      "bone": "ARM_R_HAND",
+      "type": "handSwitch"
+    },
+    {
+      "id": "depthArms",
+      "label": "Arm Depth (front / back L / back R)",
+      "bone": null,
+      "type": "depth"
+    }
+  ],
+  "depthGroups": [
+    {
+      "z": -100,
+      "name": "GUIDE"
+    },
+    {
+      "z": 74,
+      "name": "LEG_L / LEG_R (behind body)"
+    },
+    {
+      "z": 100,
+      "name": "CAN body"
+    },
+    {
+      "z": 130,
+      "name": "CAN lid"
+    },
+    {
+      "z": 198,
+      "name": "FACE"
+    },
+    {
+      "z": 240,
+      "name": "MOUTH"
+    },
+    {
+      "z": 320,
+      "name": "FX"
+    },
+    {
+      "z": 160,
+      "name": "ARM_L (in front)"
+    },
+    {
+      "z": 160,
+      "name": "ARM_R (in front)"
+    }
+  ],
+  "notes": [
+    "Depth: arms default to the FRONT tier; *_BACK variants are exported for behind-body swaps.",
+    "Every component PNG is cropped but keeps its registration offset in components.json.",
+    "Mouth components live on one switch; only one is visible at a time."
+  ]
+}

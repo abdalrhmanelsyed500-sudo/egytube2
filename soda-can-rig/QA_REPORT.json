@@ -1,0 +1,212 @@
+{
+  "generated": "2026-11-10T14:54:19.013Z",
+  "summary": {
+    "total": 40,
+    "passed": 40,
+    "failed": 0,
+    "verdict": "PASS"
+  },
+  "checks": [
+    {
+      "name": "components-non-empty",
+      "ok": true,
+      "detail": "184 components rendered with content"
+    },
+    {
+      "name": "canvas-registration",
+      "ok": true,
+      "detail": "all crops inside 1536x1700"
+    },
+    {
+      "name": "eye-L-IRIS-contained",
+      "ok": true,
+      "detail": "overlaps sclera"
+    },
+    {
+      "name": "eye-L-PUPIL-contained",
+      "ok": true,
+      "detail": "overlaps sclera"
+    },
+    {
+      "name": "eye-L-HIGHLIGHT-contained",
+      "ok": true,
+      "detail": "overlaps sclera"
+    },
+    {
+      "name": "eye-L-UPPER_LID-contained",
+      "ok": true,
+      "detail": "overlaps sclera"
+    },
+    {
+      "name": "eye-L-LOWER_LID-contained",
+      "ok": true,
+      "detail": "overlaps sclera"
+    },
+    {
+      "name": "eye-L-OUTLINE-contained",
+      "ok": true,
+      "detail": "overlaps sclera"
+    },
+    {
+      "name": "eye-R-IRIS-contained",
+      "ok": true,
+      "detail": "overlaps sclera"
+    },
+    {
+      "name": "eye-R-PUPIL-contained",
+      "ok": true,
+      "detail": "overlaps sclera"
+    },
+    {
+      "name": "eye-R-HIGHLIGHT-contained",
+      "ok": true,
+      "detail": "overlaps sclera"
+    },
+    {
+      "name": "eye-R-UPPER_LID-contained",
+      "ok": true,
+      "detail": "overlaps sclera"
+    },
+    {
+      "name": "eye-R-LOWER_LID-contained",
+      "ok": true,
+      "detail": "overlaps sclera"
+    },
+    {
+      "name": "eye-R-OUTLINE-contained",
+      "ok": true,
+      "detail": "overlaps sclera"
+    },
+    {
+      "name": "eye-L-pupil-inside-iris",
+      "ok": true,
+      "detail": "pupil inside iris"
+    },
+    {
+      "name": "eye-L-pupil-separate",
+      "ok": true,
+      "detail": "iris and pupil exported as separate PNGs"
+    },
+    {
+      "name": "eye-R-pupil-inside-iris",
+      "ok": true,
+      "detail": "pupil inside iris"
+    },
+    {
+      "name": "eye-R-pupil-separate",
+      "ok": true,
+      "detail": "iris and pupil exported as separate PNGs"
+    },
+    {
+      "name": "eyes-separate",
+      "ok": true,
+      "detail": "left and right eye are independent, non-overlapping assets"
+    },
+    {
+      "name": "arm-L-hand-separate",
+      "ok": true,
+      "detail": "hand is its own rotatable layer"
+    },
+    {
+      "name": "leg-L-pieces",
+      "ok": true,
+      "detail": "upper, knee, lower, ankle, foot all exported"
+    },
+    {
+      "name": "arm-R-hand-separate",
+      "ok": true,
+      "detail": "hand is its own rotatable layer"
+    },
+    {
+      "name": "leg-R-pieces",
+      "ok": true,
+      "detail": "upper, knee, lower, ankle, foot all exported"
+    },
+    {
+      "name": "body-no-holes",
+      "ok": true,
+      "detail": "can body interior is fully opaque"
+    },
+    {
+      "name": "shoulder-L-socket",
+      "ok": true,
+      "detail": "shoulder pivot sits on the can body"
+    },
+    {
+      "name": "hip-L-socket",
+      "ok": true,
+      "detail": "hip pivot inside the can shadow line"
+    },
+    {
+      "name": "shoulder-R-socket",
+      "ok": true,
+      "detail": "shoulder pivot sits on the can body"
+    },
+    {
+      "name": "hip-R-socket",
+      "ok": true,
+      "detail": "hip pivot inside the can shadow line"
+    },
+    {
+      "name": "bones-unique",
+      "ok": true,
+      "detail": "41 unique bones"
+    },
+    {
+      "name": "bones-parents",
+      "ok": true,
+      "detail": "hierarchy resolves"
+    },
+    {
+      "name": "bones-pivots",
+      "ok": true,
+      "detail": "all pivots inside the master canvas"
+    },
+    {
+      "name": "bones-required",
+      "ok": true,
+      "detail": "34 required bones present"
+    },
+    {
+      "name": "mouth-library",
+      "ok": true,
+      "detail": "36 mouth shapes exported"
+    },
+    {
+      "name": "mouth-switch-state",
+      "ok": true,
+      "detail": "exactly one base mouth visible in the delivered PSD/ORA: MOUTH_NEUTRAL"
+    },
+    {
+      "name": "phoneme-count",
+      "ok": true,
+      "detail": "14 lip-sync phonemes"
+    },
+    {
+      "name": "psd-hidden-flags",
+      "ok": true,
+      "detail": "105 alternate layers exported hidden (mouths, hand poses, back tier)"
+    },
+    {
+      "name": "depth-tiers",
+      "ok": true,
+      "detail": "front + back arm tiers exported for both sides"
+    },
+    {
+      "name": "hand-poses-L",
+      "ok": true,
+      "detail": "11 hand poses"
+    },
+    {
+      "name": "hand-poses-R",
+      "ok": true,
+      "detail": "11 hand poses"
+    },
+    {
+      "name": "texture-consistency",
+      "ok": true,
+      "detail": "all components rendered through the shared paper/crayon grain pass"
+    }
+  ],
+  "issues": []
+}

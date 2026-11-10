@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>THE SODA CAN — 2D Rig Studio</title>
+<style>
+  :root {
+    --ink: #26201c;
+    --paper: #f4ecd8;
+    --paper2: #efe4cc;
+    --line: #cbbfa4;
+    --accent: #c8402f;
+    --accent2: #4a6fa5;
+    --ok: #2f7d5d;
+    --panel: rgba(250, 244, 231, 0.94);
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+    color: var(--ink);
+    background: #e8ddc6;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  header {
+    display: flex; align-items: center; gap: 16px;
+    padding: 10px 16px;
+    background: linear-gradient(180deg, #fbf5e6, #f1e7d1);
+    border-bottom: 2px solid var(--line);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.04);
+    z-index: 5;
+  }
+  header h1 { font-size: 19px; letter-spacing: 0.14em; margin: 0; font-weight: 700; }
+  header .sub { font-size: 12px; opacity: 0.72; letter-spacing: 0.04em; }
+  header .spacer { flex: 1; }
+  .badge { font-size: 11px; padding: 3px 8px; border: 1px solid var(--line); border-radius: 999px; background: #fffdf6; letter-spacing: 0.06em; }
+  button, select, input[type=range] { font-family: inherit; }
+  .btn {
+    background: #fffdf6; border: 1.5px solid var(--ink); border-radius: 7px;
+    padding: 6px 11px; font-size: 12.5px; cursor: pointer; letter-spacing: 0.03em;
+    box-shadow: 1.5px 1.5px 0 rgba(38,32,28,0.85);
+    transition: transform .06s ease, box-shadow .06s ease, background .12s;
+  }
+  .btn:hover { background: #fff8e4; }
+  .btn:active { transform: translate(1.5px, 1.5px); box-shadow: 0 0 0 rgba(0,0,0,0); }
+  .btn.primary { background: var(--accent); color: #fff8ee; border-color: #7d2418; box-shadow: 1.5px 1.5px 0 #7d2418; }
+  .btn.ghost { box-shadow: none; border-color: var(--line); }
+  main { flex: 1; display: grid; grid-template-columns: 300px 1fr 320px; min-height: 0; }
+  .panel {
+    background: var(--panel);
+    border-right: 2px solid var(--line);
+    overflow-y: auto;
+    padding: 10px 12px 40px;
+    font-size: 12.5px;
+  }
+  .panel.right { border-right: none; border-left: 2px solid var(--line); }
+  .panel::-webkit-scrollbar { width: 9px; }
+  .panel::-webkit-scrollbar-thumb { background: #cfc2a6; border-radius: 6px; }
+  h2.sec {
+    font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
+    margin: 16px 0 8px; padding-bottom: 4px; border-bottom: 1px dashed var(--line);
+    color: #6b5a49; font-weight: 700;
+  }
+  h2.sec:first-child { margin-top: 2px; }
+  .row { display: flex; align-items: center; gap: 8px; margin: 5px 0; }
+  .row label { flex: 0 0 96px; font-size: 11.5px; color: #58483a; }
+  .row input[type=range] { flex: 1; accent-color: var(--accent); height: 16px; }
+  .row .val { width: 40px; text-align: right; font-size: 11px; font-variant-numeric: tabular-nums; opacity: 0.75; }
+  .row select { flex: 1; font-size: 12px; padding: 3px 4px; border: 1px solid var(--line); border-radius: 5px; background: #fffdf6; }
+  .stage {
+    position: relative; min-width: 0; display: flex; align-items: center; justify-content: center;
+    background:
+      radial-gradient(circle at 50% 42%, #f7efdd 0%, #e9dcc2 62%, #dccbad 100%);
+    overflow: hidden;
+  }
+  .stage canvas { display: block; box-shadow: 0 12px 40px rgba(60,42,24,0.16); border-radius: 4px; max-width: 96%; max-height: 96%; }
+  .hud {
+    position: absolute; left: 12px; bottom: 10px; font-size: 11.5px; color: #6d5c49;
+    background: rgba(255,252,242,0.85); border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px;
+    pointer-events: none; letter-spacing: 0.03em;
+  }
+  .hud b { color: var(--ink); }
+  .gazepads { display: flex; gap: 10px; align-items: center; justify-content: space-between; }
+  .gazepads canvas { border: 1.5px solid var(--ink); border-radius: 8px; background: #fffdf6; cursor: crosshair; touch-action: none; }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; }
+  .chip {
+    font-size: 10.6px; padding: 4px 7px; border: 1px solid var(--line); border-radius: 6px;
+    background: #fffdf6; cursor: pointer; letter-spacing: 0.03em; line-height: 1.15;
+  }
+  .chip:hover { background: #fff5df; border-color: #b9a988; }
+  .chip.on { background: var(--accent); color: #fff6ec; border-color: #7d2418; }
+  .chip.small { font-size: 10px; padding: 3px 6px; }
+  .seg { display: flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+  .seg button { flex: 1; border: none; background: #fffdf6; padding: 4px 6px; font-size: 11px; cursor: pointer; font-family: inherit; }
+  .seg button.on { background: var(--accent2); color: #f6fafe; }
+  .timeline { border: 1px solid var(--line); border-radius: 8px; padding: 8px; background: #fffdf6; }
+  .tl-bar { position: relative; height: 26px; margin-top: 6px; border-radius: 4px; overflow: hidden; background: #efe6d2; display: flex; }
+  .tl-seg { height: 100%; border-right: 1px solid rgba(0,0,0,0.12); font-size: 8.5px; color: #6a5a47; display: flex; align-items: center; justify-content: center; overflow: hidden; white-space: nowrap; cursor: pointer; }
+  .tl-seg:hover { background: #f7eeda; }
+  .tl-seg.on { background: var(--accent); color: #fff7ec; }
+  .tl-head { position: absolute; top: 0; bottom: 0; width: 2px; background: #26201c; pointer-events: none; }
+  .tl-time { font-size: 11px; font-variant-numeric: tabular-nums; opacity: 0.8; }
+  .stat { display: flex; justify-content: space-between; font-size: 11.5px; padding: 2px 0; color: #55463a; }
+  .stat b { font-weight: 600; }
+  .note { font-size: 11px; line-height: 1.45; color: #6a5847; background: #f8f1df; border: 1px dashed var(--line); border-radius: 6px; padding: 7px 8px; }
+  .loading {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    background: rgba(244,236,216,0.95); font-size: 13px; letter-spacing: 0.12em; z-index: 4; flex-direction: column; gap: 10px;
+  }
+  .bar { width: 220px; height: 6px; background: #dfd2b6; border-radius: 4px; overflow: hidden; }
+  .bar > i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+  .hidden { display: none !important; }
+  @media (max-width: 1180px) { main { grid-template-columns: 260px 1fr 280px; } }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; grid-template-rows: auto 1fr auto; } .panel { max-height: 34vh; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>THE SODA CAN</h1>
+  <span class="sub">2D puppet · skeletal rig · facial studio</span>
+  <span class="badge" id="badgeBones">41 bones</span>
+  <span class="badge" id="badgeLayers">169 components</span>
+  <div class="spacer"></div>
+  <button class="btn ghost" id="btnReset">Reset pose</button>
+  <button class="btn" id="btnSaveScene">Save .soda</button>
+  <button class="btn" id="btnOpenScene">Open .soda</button>
+  <button class="btn primary" id="btnExport">Export PNG</button>
+  <input type="file" id="fileScene" accept=".soda,.zip" class="hidden" />
+</header>
+<main>
+  <aside class="panel" id="leftPanel">
+    <h2 class="sec">View</h2>
+    <div class="row"><label>Zoom</label><input type="range" id="zoom" min="30" max="130" value="72"><span class="val" id="zoomVal">72%</span></div>
+    <div class="row"><label>Bones</label><input type="checkbox" id="showBones"></div>
+    <div class="row"><label>Pivots</label><input type="checkbox" id="showPivots"></div>
+    <div class="row"><label>Onion skin</label><input type="checkbox" id="onion"></div>
+    <div class="row"><label>Paper</label><input type="checkbox" id="paper" checked></div>
+
+    <h2 class="sec">Body</h2>
+    <div class="row"><label>Tilt</label><input type="range" id="bodyTilt" min="-16" max="16" step="0.5" value="0"><span class="val"></span></div>
+    <div class="row"><label>Squash</label><input type="range" id="squash" min="0.72" max="1.3" step="0.005" value="1"><span class="val"></span></div>
+    <div class="row"><label>Bounce Y</label><input type="range" id="bounceY" min="-220" max="120" step="1" value="0"><span class="val"></span></div>
+    <div class="row"><label>Lean X</label><input type="range" id="leanX" min="-90" max="90" step="1" value="0"><span class="val"></span></div>
+    <div class="row"><label>Root rotate</label><input type="range" id="rootRot" min="-18" max="18" step="0.5" value="0"><span class="val"></span></div>
+    <div class="row"><label>Pull tab</label><input type="range" id="pullTab" min="-40" max="6" step="1" value="0"><span class="val"></span></div>
+
+    <h2 class="sec">Eye target</h2>
+    <div class="gazepads">
+      <canvas id="gazePad" width="150" height="150"></canvas>
+      <div style="flex:1">
+        <div class="row"><label>Cross</label><input type="range" id="crossEye" min="0" max="1" step="0.01" value="0"></div>
+        <div class="row"><label>Iris scale</label><input type="range" id="irisScale" min="0.7" max="1.35" step="0.01" value="1"></div>
+      </div>
+    </div>
+    <div class="row"><label>Blink L</label><input type="range" id="blinkL" min="0" max="1" step="0.01" value="0"><span class="val"></span></div>
+    <div class="row"><label>Blink R</label><input type="range" id="blinkR" min="0" max="1" step="0.01" value="0"><span class="val"></span></div>
+    <div class="row"><label>Squint</label><input type="range" id="squint" min="0" max="1" step="0.01" value="0"><span class="val"></span></div>
+
+    <h2 class="sec">Eyebrows</h2>
+    <div class="row"><label>Lift L</label><input type="range" id="browLiftL" min="-24" max="30" step="0.5" value="0"><span class="val"></span></div>
+    <div class="row"><label>Lift R</label><input type="range" id="browLiftR" min="-24" max="30" step="0.5" value="0"><span class="val"></span></div>
+    <div class="row"><label>Tilt L</label><input type="range" id="browTiltL" min="-24" max="24" step="0.5" value="0"><span class="val"></span></div>
+    <div class="row"><label>Tilt R</label><input type="range" id="browTiltR" min="-24" max="24" step="0.5" value="0"><span class="val"></span></div>
+    <div class="row"><label>Inner L</label><input type="range" id="browInnerL" min="-14" max="14" step="0.5" value="0"><span class="val"></span></div>
+    <div class="row"><label>Inner R</label><input type="range" id="browInnerR" min="-14" max="14" step="0.5" value="0"><span class="val"></span></div>
+
+    <h2 class="sec">Mouth</h2>
+    <div class="row"><label>Shape</label><select id="mouthSel"></select></div>
+    <div class="row"><label>Jaw</label><input type="range" id="jaw" min="0" max="1" step="0.01" value="0"><span class="val"></span></div>
+    <div class="row"><label>Scale</label><input type="range" id="mouthScale" min="0.7" max="1.35" step="0.01" value="1"><span class="val"></span></div>
+    <div class="row"><label>Offset Y</label><input type="range" id="mouthY" min="-40" max="40" step="1" value="0"><span class="val"></span></div>
+    <div class="chips" id="mouthChips"></div>
+
+    <h2 class="sec">Hands</h2>
+    <div class="row"><label>Left</label><select id="handL"></select></div>
+    <div class="row"><label>Right</label><select id="handR"></select></div>
+
+    <h2 class="sec">Arms</h2>
+    <div class="row"><label>Mode L</label><div class="seg" id="modeArmL"><button data-v="fk" class="on">FK</button><button data-v="ik">IK</button></div></div>
+    <div class="row"><label>FK L S/E/W</label><input type="range" id="armLfk" min="0" max="2" step="1" value="0"><span class="val" id="armLfkIdx">S</span></div>
+    <div class="row"><label>FK L value</label><input type="range" id="armLfkVal" min="-90" max="90" step="1" value="0"><span class="val"></span></div>
+    <div class="row"><label>Mode R</label><div class="seg" id="modeArmR"><button data-v="fk" class="on">FK</button><button data-v="ik">IK</button></div></div>
+    <div class="row"><label>Depth L</label><div class="seg" id="depthL"><button data-v="front" class="on">Front</button><button data-v="back">Back</button></div></div>
+    <div class="row"><label>Depth R</label><div class="seg" id="depthR"><button data-v="front" class="on">Front</button><button data-v="back">Back</button></div></div>
+    <div class="row"><label>FK R S/E/W</label><input type="range" id="armRfk" min="0" max="2" step="1" value="0"><span class="val" id="armRfkIdx">S</span></div>
+    <div class="row"><label>FK R value</label><input type="range" id="armRfkVal" min="-90" max="90" step="1" value="0"><span class="val"></span></div>
+
+    <h2 class="sec">Legs</h2>
+    <div class="row"><label>Mode L</label><div class="seg" id="modeLegL"><button data-v="fk" class="on">FK</button><button data-v="ik">IK</button></div></div>
+    <div class="row"><label>Hip / Knee</label><input type="range" id="legLfk" min="0" max="2" step="1" value="0"><span class="val" id="legLfkIdx">Hip</span></div>
+    <div class="row"><label>FK L value</label><input type="range" id="legLfkVal" min="-70" max="70" step="1" value="0"><span class="val"></span></div>
+    <div class="row"><label>Mode R</label><div class="seg" id="modeLegR"><button data-v="fk" class="on">FK</button><button data-v="ik">IK</button></div></div>
+    <div class="row"><label>Hip / Knee</label><input type="range" id="legRfk" min="0" max="2" step="1" value="0"><span class="val" id="legRfkIdx">Hip</span></div>
+    <div class="row"><label>FK R value</label><input type="range" id="legRfkVal" min="-70" max="70" step="1" value="0"><span class="val"></span></div>
+    <div class="row"><label>Ankle L</label><input type="range" id="footL" min="-30" max="30" step="1" value="0"><span class="val"></span></div>
+    <div class="row"><label>Ankle R</label><input type="range" id="footR" min="-30" max="30" step="1" value="0"><span class="val"></span></div>
+    <div class="note">With <b>Bones</b> on, drag the green hand / amber foot handles on the canvas to pose with IK.</div>
+
+    <h2 class="sec">Expressions</h2>
+    <div class="chips" id="exprChips"></div>
+  </aside>
+
+  <section class="stage" id="stage">
+    <canvas id="c" width="1536" height="1700"></canvas>
+    <div class="hud" id="hud">ready</div>
+  </section>
+
+  <aside class="panel right">
+    <h2 class="sec">Technical demo timeline</h2>
+    <div class="timeline">
+      <div class="row" style="margin:0">
+        <button class="btn" id="btnPlay">▶ Play</button>
+        <button class="btn ghost" id="btnStop">■</button>
+        <span class="tl-time" id="tlTime">0.00 s</span>
+      </div>
+      <div class="tl-bar" id="tlBar"></div>
+      <div id="tlClip" class="stat" style="margin-top:6px"><span id="tlLabel">1 / 14 NEUTRAL IDLE</span></div>
+      <div class="note" id="tlNote" style="margin-top:6px">Drive the puppet with the timeline; every clip is pure rig data.</div>
+    </div>
+
+    <h2 class="sec">Puppet</h2>
+    <div class="stat"><span>Bones</span><b id="stBones">—</b></div>
+    <div class="stat"><span>Components</span><b id="stComps">—</b></div>
+    <div class="stat"><span>Visible layers</span><b id="stVis">—</b></div>
+    <div class="stat"><span>IK chains</span><b>4 (2 arms / 2 legs)</b></div>
+    <div class="stat"><span>Mouth shapes</span><b id="stMouths">—</b></div>
+    <div class="stat"><span>Hand poses</span><b>10 per hand</b></div>
+    <div class="stat"><span>Expression presets</span><b id="stExpr">—</b></div>
+
+    <h2 class="sec">Export</h2>
+    <div class="chips">
+      <button class="chip" id="btnPng">Pose PNG</button>
+      <button class="chip" id="btnStrip">12-frame strip</button>
+      <button class="chip" id="btnJson">Pose JSON</button>
+      <button class="chip" id="btnSheet">Pose sheet PNG</button>
+    </div>
+    <div class="note" style="margin-top:8px">
+      The studio runs the same rig code as the asset build: <b>41 bones</b>, analytic 2-bone IK,
+      squash/stretch, facial controllers and a mouth switch — all over the individual PNG components.
+    </div>
+    <h2 class="sec">Shortcuts</h2>
+    <div class="note">Space — play / pause demo · B — bones · R — reset pose · E — export PNG</div>
+  </aside>
+</main>
+<div class="loading" id="loading">
+  <div>LOADING PUPPET…</div>
+  <div class="bar"><i id="loadBar"></i></div>
+  <div id="loadInfo" style="font-size:11px;opacity:.7"></div>
+</div>
+<script src="pose.js"></script>
+<script src="timeline.js"></script>
+<script src="zip.js"></script>
+<script src="zipw.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

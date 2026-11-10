@@ -1,0 +1,41 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<title>The Soda Can — rig test animation</title>
+<style>
+  :root { color-scheme: light; }
+  body { margin:0; background:#efe4cf; color:#3a2b20;
+         font:15px/1.55 ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif; }
+  header { padding:22px 26px 6px; }
+  h1 { margin:0 0 4px; font-size:21px; letter-spacing:.2px; }
+  p  { margin:2px 0; color:#6f5a48; font-size:13px; }
+  .reel { padding:14px 26px 4px; }
+  .reel img { width:min(430px,92vw); border:1px solid #d8c8ad; border-radius:10px; background:#f4ecdc;
+              box-shadow:0 10px 24px -14px rgba(60,40,25,.55); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(148px,1fr)); gap:12px; padding:14px 26px 34px; }
+  figure { margin:0; background:#f7f0e0; border:1px solid #ddcdb3; border-radius:9px; padding:8px; }
+  figure img { width:100%; display:block; border-radius:6px; }
+  figcaption { font-size:11px; letter-spacing:.5px; color:#7a6552; padding-top:5px; text-transform:uppercase; }
+</style>
+<header>
+  <h1>The Soda Can — 14-shot test animation</h1>
+  <p>Every frame is the separated PNG layers posed by the 41-bone rig (idle, blink, eye directions, brow raise,
+     lip-sync, smile, laugh, wave, point, walk, run, jump, landing squash &amp; stretch, sit, reset).</p>
+  <p>29.1s at 16 fps · GIF (no video encoder in this build environment).</p>
+</header>
+<div class="reel"><img src="soda_can_test_animation.gif" alt="full 14-shot reel"></div>
+<div class="grid">
+  <figure><img src="clip_idle.gif" alt="idle"><figcaption>01 idle</figcaption></figure>
+  <figure><img src="clip_blink.gif" alt="blink"><figcaption>02 blink</figcaption></figure>
+  <figure><img src="clip_look.gif" alt="look"><figcaption>03 look</figcaption></figure>
+  <figure><img src="clip_brows.gif" alt="brows"><figcaption>04 brows</figcaption></figure>
+  <figure><img src="clip_lipsync.gif" alt="lipsync"><figcaption>05 lipsync</figcaption></figure>
+  <figure><img src="clip_laugh.gif" alt="laugh"><figcaption>06 laugh</figcaption></figure>
+  <figure><img src="clip_wave.gif" alt="wave"><figcaption>07 wave</figcaption></figure>
+  <figure><img src="clip_point.gif" alt="point"><figcaption>08 point</figcaption></figure>
+  <figure><img src="clip_walk.gif" alt="walk"><figcaption>09 walk</figcaption></figure>
+  <figure><img src="clip_run.gif" alt="run"><figcaption>10 run</figcaption></figure>
+  <figure><img src="clip_jump.gif" alt="jump"><figcaption>11 jump</figcaption></figure>
+  <figure><img src="clip_landing.gif" alt="landing"><figcaption>12 landing</figcaption></figure>
+  <figure><img src="clip_sit.gif" alt="sit"><figcaption>13 sit</figcaption></figure>
+  <figure><img src="clip_reset.gif" alt="reset"><figcaption>14 reset</figcaption></figure>
+</div>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "soda-can-rig-tools",
+  "private": true,
+  "version": "1.0.0",
+  "description": "THE SODA CAN - 2D character asset pipeline, skeletal rig, studio and demo renderer",
+  "scripts": {
+    "build:assets": "node tools/soda/build-assets.js",
+    "build:demo": "node tools/soda/render-demo.js",
+    "build:all": "node tools/soda/build-assets.js && node tools/soda/render-demo.js",
+    "serve": "node tools/soda/serve.js"
+  }
+}

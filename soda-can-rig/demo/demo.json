@@ -1,0 +1,114 @@
+{
+  "generated": "2026-11-10T14:51:42.544Z",
+  "engine": "tools/soda/render-demo.js (compose.render -> GIF)",
+  "fps": 16,
+  "width": 512,
+  "height": 567,
+  "total": 29.1,
+  "reel": {
+    "file": "soda_can_test_animation.gif",
+    "bytes": 16519097,
+    "frames": 466
+  },
+  "clips": [
+    {
+      "id": "idle",
+      "start": 0,
+      "dur": 2.6,
+      "frames": 42,
+      "bytes": 1484461
+    },
+    {
+      "id": "blink",
+      "start": 2.6,
+      "dur": 1.1,
+      "frames": 18,
+      "bytes": 622989
+    },
+    {
+      "id": "look",
+      "start": 3.7,
+      "dur": 2.8,
+      "frames": 45,
+      "bytes": 1592752
+    },
+    {
+      "id": "brows",
+      "start": 6.5,
+      "dur": 1.8,
+      "frames": 29,
+      "bytes": 1037574
+    },
+    {
+      "id": "lipsync",
+      "start": 8.3,
+      "dur": 3.2,
+      "frames": 51,
+      "bytes": 1804783
+    },
+    {
+      "id": "laugh",
+      "start": 11.5,
+      "dur": 2,
+      "frames": 32,
+      "bytes": 1172600
+    },
+    {
+      "id": "wave",
+      "start": 13.5,
+      "dur": 2.2,
+      "frames": 35,
+      "bytes": 1245981
+    },
+    {
+      "id": "point",
+      "start": 15.7,
+      "dur": 1.8,
+      "frames": 29,
+      "bytes": 1006718
+    },
+    {
+      "id": "walk",
+      "start": 17.5,
+      "dur": 2.6,
+      "frames": 42,
+      "bytes": 1503890
+    },
+    {
+      "id": "run",
+      "start": 20.1,
+      "dur": 1.8,
+      "frames": 29,
+      "bytes": 1047780
+    },
+    {
+      "id": "jump",
+      "start": 21.9,
+      "dur": 1.9,
+      "frames": 30,
+      "bytes": 1073051
+    },
+    {
+      "id": "landing",
+      "start": 23.8,
+      "dur": 1.3,
+      "frames": 21,
+      "bytes": 744899
+    },
+    {
+      "id": "sit",
+      "start": 25.1,
+      "dur": 2.2,
+      "frames": 35,
+      "bytes": 1206413
+    },
+    {
+      "id": "reset",
+      "start": 27.3,
+      "dur": 1.8,
+      "frames": 29,
+      "bytes": 1017969
+    }
+  ],
+  "paletteColours": 256
+}
